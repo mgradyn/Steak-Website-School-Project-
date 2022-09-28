@@ -230,11 +230,11 @@ nav input[type="checkbox"] {
 
 .container .section-1 {
   margin-top: 3rem;
-  max-width: calc(100% - 15rem);
+  width: calc(100% - 15rem);
 }
 .container .section-3 {
   margin: 0 auto 0 auto;
-  max-width: calc(100% - 15rem);
+  width: calc(100% - 15rem);
 }
 
 /*grid-system-page*/
