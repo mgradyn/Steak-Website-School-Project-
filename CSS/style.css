@@ -1039,6 +1039,19 @@ footer .footer-container .footer-info-2 {
   border-radius: 10px;
 }
 
+@media screen and (max-width: 1920px) {
+  .container section {
+    max-width: calc(100% - 15rem);
+  }
+
+  .container .section-1 {
+    width: 100%;
+  }
+  .container .section-3 {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 1890px) {
   section .page-container-grid .page-about p {
     font-size: 1.2rem;
@@ -1268,6 +1281,10 @@ footer .footer-container .footer-info-2 {
 }
 
 @media screen and (max-width: 800px) {
+  .wrapper-nav nav {
+    justify-content: space-between;
+  }
+
   nav .menu-icon {
     z-index: 100;
     display: block;
