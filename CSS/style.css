@@ -46,7 +46,6 @@ body {
 
 .wrapper-nav {
   background: #ebe0ce;
-  max-width: 1920px;
   position: fixed;
   width: 100%;
   z-index: 100;
@@ -58,12 +57,13 @@ body {
   margin: 0 auto;
   height: 8rem;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   z-index: 100;
   transition: all 0.4s ease;
 }
 nav .content {
   display: flex;
+  max-width: 1920px;
   align-items: center;
   z-index: 100;
 }
@@ -215,7 +215,6 @@ nav input[type="checkbox"] {
   padding-top: 8rem;
   width: 100%;
   height: 100%;
-  max-width: 1920px;
   margin-bottom: 4rem;
   display: flex;
   flex-direction: column;
@@ -225,7 +224,7 @@ nav input[type="checkbox"] {
   height: 100%;
   width: 100%;
   margin: 1rem auto;
-  max-width: calc(100% - 15rem);
+  max-width: 1920px;
   transition: all 0.4s ease;
 }
 
